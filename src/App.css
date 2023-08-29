@@ -1,0 +1,180 @@
+body {
+    box-sizing: border-box;
+    background-color: black;
+    background-image: url(./asset/background.jpg);
+    background-size: 100%;
+}
+
+.main-container {
+    color: #fff;
+}
+
+.todoContainer {
+    width: 80%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.568);
+    padding: 20px 10px 10px 10px;
+    margin: 50px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    ;
+}
+
+.spiner{
+    width: 50px;
+    height: 50px;
+    background-color: #012949;
+    border-top:2px solid #012949 ;
+    border-left:2px solid #012949 ;
+    border-right:2px solid #012949 ;
+}
+
+.headind-head {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headind-head>h1 {
+    margin: 0;
+}
+
+.headind-head>img {
+    width: 70px;
+    animation: App-logo-spin infinite 4s linear;
+}
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.type-section {
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.input-search {
+    width: 60%;
+    min-width: 260px;
+    padding: 5px 10px;
+    color: black;
+    font-weight: bold;
+    outline: none;
+    font-size: 20px;
+    background-color: transparent;
+    background-color: #ffffff61;
+    border: 1px solid #6d6c6c;
+    box-shadow: 1px 1px 10px #5e5e5e;
+    border-radius: 5px;
+}
+
+.input-search::placeholder {
+    color: rgb(49, 49, 49);
+}
+
+.btn-container {
+    display: flex;
+    height: auto;
+}
+
+.add-btn {
+    background-color: #012949 !important;
+    width: 100px;
+    margin: auto 5px;
+    border: none !important;
+    color: #fff !important;
+    box-shadow: 1px 1px 10px #012949;
+}
+
+.add-btn:hover {
+    background-color: #184e7a !important;
+}
+
+
+.deleteAll-btn {
+    box-shadow: 1px 1px 10px #921616;
+    background-color: #921616 !important;
+    width: 150px;
+    margin: auto 5px;
+    border: none !important;
+    color: #fff !important;
+}
+
+.deleteAll-btn:hover {
+    background-color: #9b3939 !important;
+}
+
+.edit-btn {
+    width: 100px;
+    margin: auto 5px;
+    border: 2px solid #198754 !important;
+    box-shadow: 1px 1px 10px #012949;
+}
+
+
+.delete-btn {
+    width: 90px;
+    margin: auto 5px;
+    border: 2px solid #dc3545 !important;
+    box-shadow: 1px 1px 10px #012949;
+}
+
+.table-container {
+    width: 100%;
+    margin: 30px auto;
+    height: auto;
+    padding: 10px;
+
+}
+
+.table-box {
+    width: 90%;
+    padding: 10px;
+    margin: 20px auto;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.table-box th {
+    border-bottom: 2px solid #fff;
+    padding: 1%;
+    text-align: center;
+    margin: 2px !important;
+}
+
+.td {
+    border-bottom: 1px solid #aaaaaa;
+    padding: 1%;
+    text-align: center;
+    margin: 2px;
+}
+
+.pvalue{
+    /* min-width: 50px; */
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.width{
+    min-width :50px; ;
+}
+
+@media screen and (man-width:500px) {
+    
+.todoContainer {
+    width: 100%!important;
+}
+}
